@@ -1,9 +1,10 @@
 {
   "name": "calculator",
   "version": "1.0.0",
-  "description": "Calculadora Javascript",
+  "description": "Javascript Calculator",
   "main": "index.js",
   "scripts": {
+    "start": "node node_modules/http-server/bin/http-server src",
     "test-jasmine": "jasmine",
     "test-dev": "karma start",
     "test": "karma start --single-run"
@@ -12,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^3.4.1",
     "browserify": "^16.5.1",
     "jasmine": "^3.5.0",
     "karma": "^5.1.0",
@@ -20,5 +20,9 @@
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^3.3.1",
     "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "bootstrap": "^3.4.1"
   }
 }
