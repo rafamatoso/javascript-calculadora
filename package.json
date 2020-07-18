@@ -4,7 +4,7 @@
   "description": "Javascript Calculator",
   "main": "index.js",
   "scripts": {
-    "start": "node node_modules/http-server/bin/http-server -c-1 src",
+    "start": "http-server -c-1 src",
     "test-jasmine": "jasmine",
     "test-dev": "karma start",
     "test": "karma start --single-run"
