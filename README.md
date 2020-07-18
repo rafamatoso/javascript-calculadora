@@ -15,8 +15,6 @@ Calculadora com operações matemáticas simples, desenvolvida com o processo BD
 
 - [Certificado de Conclusão](https://www.udemy.com/certificate/UC-b83398d0-9c5e-44bd-b75c-d368b367230a/)
 
----
-
 ## Techs
 
 - Frontend:
@@ -32,8 +30,6 @@ Calculadora com operações matemáticas simples, desenvolvida com o processo BD
 - Servidor:
 
   - [http-server](https://www.npmjs.com/package/http-server) (Servidor HTTP local)
-
----
 
 ## Como instalar e usar a aplicação
 
